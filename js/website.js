@@ -46,7 +46,6 @@ $(document).ready((function(e) {
 	
 	$("#next, #prev").click(function() {
 		
-		console.log($(this).attr('id') );
 		if($(this).attr('id')== "next") {
 		  comp_counter++
 		}
@@ -64,7 +63,7 @@ $(document).ready((function(e) {
 		}
 
 		$('#comp_title').addClass(colors[comp_counter]);
-		$('#comp_title').text(comp_titles[comp_counter]);
+		$('.comp_inner').text(comp_titles[comp_counter]);
 		$('#comp_title').data("comp", comp_counter +1)
 		
 		uuid = createUUID()
