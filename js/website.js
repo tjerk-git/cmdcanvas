@@ -2,7 +2,7 @@ var $ = jQuery.noConflict();
 
 $(document).ready((function(e) {
 
-	let comp_titles = ['Onderzoeken (1/5)', 'Creëren (2/5)', 'Communiceren (3/5)', 'Organiseren (4/5)', 'Leren (5/5)'];
+	let comp_titles = ['Onderzoeken', 'Creëren', 'Communiceren', 'Organiseren', 'Leren'];
 	let comp_lvl = ['Niveau 1', 'Niveau 2', 'Niveau 3'];
 	let colors = ['black', 'blue', 'green', 'orange', 'red'];
 	let lvl_colors = ['pink', 'aqua', 'darkred'];
@@ -44,21 +44,28 @@ $(document).ready((function(e) {
 	});
 	
 	
-	$("#comp_title").click(function() {
-	
-		comp_counter++
+	$("#next, #prev").click(function() {
+		
+		console.log($(this).attr('id') );
+		if($(this).attr('id')== "next") {
+		  comp_counter++
+		}
+		
+		if($(this).attr('id') == "prev") {
+		  comp_counter--
+		}
 		
 		if(comp_counter > 4){
 			comp_counter = 0
 		}
 		
 		if(comp_counter > 0) {
-			$(this).removeClass(colors[comp_counter -1]);
+			$('#comp_title').removeClass(colors[comp_counter -1]);
 		}
 
-		$(this).addClass(colors[comp_counter]);
-		$(this).text(comp_titles[comp_counter]);
-		$(this).data("comp", comp_counter +1)
+		$('#comp_title').addClass(colors[comp_counter]);
+		$('#comp_title').text(comp_titles[comp_counter]);
+		$('#comp_title').data("comp", comp_counter +1)
 		
 		uuid = createUUID()
 		showOutcome(uuid)
