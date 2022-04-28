@@ -1,0 +1,18 @@
+{
+  "comps": {
+	"outcomes": [
+	  {
+		"level": 1,
+		"comp": 1,
+		"description": "Je onderzoekt een gegeven (well-defined) probleem met behulp van aangereikte methodieken voor desk- en fieldresearch. Je betrekt de doelgroep bij dit proces.  Je formuleert een praktische oplossing vanuit de onderzoeksresultaten en de behoefte/belangen/waarden van de doelgroep.",
+		"title": "Onderzoeken n1"
+	  },
+	  {
+		"level": 2,
+		"comp": 1,
+		"description": "Je verkent een gegeven (half gedefinieerd) probleem. Je plaatst dit in een bredere context om de unieke context van de opdracht beter te begrijpen. Je kiest een onderzoeksmethode/format en kan deze keuze beargumenteren. Je analyseert de onderzoeksresultaten, waarbij je alert bent op de betrouwbaarheid en toepasbaarheid van je inzichten; je gebruikt hierbij bestaande theorie. Je verheldert het probleem en formuleert aanbevelingen voor mogelijk oplossingen, waarbij je rekening houdt met verschillende – soms tegenstrijdige - factoren. Je betrekt de verschillende stakeholders bij dit proces.",
+		"title": "Onderzoeken n2"
+	  }
+	]
+  }
+}

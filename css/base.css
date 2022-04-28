@@ -1,0 +1,51 @@
+/* @keyframes wiggle {
+	0% { transform: rotate(0deg); }
+   80% { transform: rotate(0deg); }
+   85% { transform: rotate(2deg); }
+   95% { transform: rotate(-2deg); }
+  100% { transform: rotate(0deg); }
+}
+
+#comp_title.wiggle{
+	animation: wiggle 2.0s infinite;
+}
+
+#comp_title:hover {
+  animation: none;
+} */
+
+
+.red{
+	background-color:#FDA000!important;
+}
+
+.blue{
+	background-color:#5669FF!important;
+}
+
+.green{
+	background-color:#23AE5F!important;
+}
+
+.orange{
+	background-color:#FF6E00!important;
+}
+
+.black{
+	background-color:#000!important;
+}
+
+.pink{
+	background-color:#ff967d!important;
+}
+
+.aqua{
+	background-color:#4DCED0!important;
+}
+
+.darkred{
+	background-color:#FF3840!important;
+}
+
+
+
